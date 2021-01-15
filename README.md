@@ -1,5 +1,5 @@
 # generic-binary-search-tree
-A generic BST writted in C language, that can be use in any C project.
+A generic BST writted in C language, that can be used in any C project.
 
 ## Use example
 Check Tests.c for a full example.
