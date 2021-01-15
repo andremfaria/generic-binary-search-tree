@@ -58,7 +58,7 @@ int insert(PbinTree ctrl, void* data);
  *
  * @param      pBinTree  { Binary tree control pointer. }
  * @param[in]  size_t  { Generic data size. (sizeof(StructMyData)) }
- * @param[in]  compare  { Pointer to the compare function. Its used in insert, delete and get element. }
+ * @param[in]  compare  { Pointer to the compare function. Its used in insert, delete and get element.This function dictates the order in binary tree. }
  * @param      get_key  { Pointer to the get_key function, that allow us to know the unique key. }
  * @param      to_string  { Pointer to the to_string function. It allow us to creating a char* with all the infos that we need.
  * Its used in pre,pos,in order methods }
